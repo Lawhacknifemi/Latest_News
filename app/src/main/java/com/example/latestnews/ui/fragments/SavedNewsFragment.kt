@@ -55,7 +55,7 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
                 viewModel.deleteArticle(article)
                 Snackbar.make(view, "Successfully deleted article", Snackbar.LENGTH_LONG).apply {
                     setAction("Undo") {
-                        viewModel.savedArticle(article)
+                        viewModel.saveArticle(article)
                     }
                     show()
                 }

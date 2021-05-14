@@ -7,7 +7,7 @@
 
     <item android:id="@+id/savedNewsFragment"
         android:title="Saved News"
-        android:icon="@drawable/ic_favorite" />
+        android:icon="@drawable/ic_bookmark" />
 
     <item android:id="@+id/searchNewsFragment"
         android:title="Search News"

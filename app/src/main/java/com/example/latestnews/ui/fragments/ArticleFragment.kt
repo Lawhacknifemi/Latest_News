@@ -12,7 +12,6 @@ import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_article.*
 
 class ArticleFragment : Fragment(R.layout.fragment_article) {
-
     lateinit var viewModel: NewsViewModel
     val args : ArticleFragmentArgs by navArgs()
 
@@ -25,10 +24,15 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
         webView.apply {
             webViewClient  = WebViewClient()
             loadUrl(article.url)
+
         }
+        val id = args.article.urlToImage
+        main_backdrop.transitionName = id
+
+
 
         fab.setOnClickListener {
-            viewModel.savedArticle(article)
+            viewModel.saveArticle(article)
             Snackbar.make(view,"Article Saved Successfully!",Snackbar.LENGTH_SHORT).show()
 
         }

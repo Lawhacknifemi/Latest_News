@@ -14,6 +14,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_searchNewsFragment"
+            app:destination="@id/searchNewsFragment" />
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
@@ -26,6 +29,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_savedNewsFragment_to_searchNewsFragment"
+            app:destination="@id/searchNewsFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment"
