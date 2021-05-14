@@ -11,7 +11,7 @@
 ### Background
 
 This is a basic app that uses paginated recyclerview as provided by the api , It fetches news Data from [https://newsapi.org/]. 
-It also load shows how to parse data using NavArg into a webview. 
+It also shows how to parse data using NavArg into a webview. 
 
 ### Features
 
