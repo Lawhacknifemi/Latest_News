@@ -31,5 +31,5 @@ The app only acts as a guide on how to use this components. You can refer to the
 
 * Icons - [icons8](https://icons8.com)## Screenshots
 
-|![No Internet](![20210515_105715](https://user-images.githubusercontent.com/64317588/118356734-8b497380-b52b-11eb-8d85-7cb3bd05c62d.gif)|![Web View](![20210515_113227](https://user-images.githubusercontent.com/64317588/118357620-ed0bdc80-b52f-11eb-8ae5-b2865fab616f.gif))||:--:|:--:|
+|![No Internet](![20210515_105715](https://user-images.githubusercontent.com/64317588/118356734-8b497380-b52b-11eb-8d85-7cb3bd05c62d.gif)|![Web View]||:--:|:--:|
 
