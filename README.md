@@ -31,6 +31,7 @@ The app only acts as a guide on how to use this components. You can refer to the
 
 * Icons - [icons8](https://icons8.com)## Screenshots
 
-|![Dark Theme](screenshots/dark_theme.gif)|![Dark Theme](screenshots/settings.gif)|
+|![No Internet](![Uploading Screenshot_20210514-214841.png…]()
+)|![Dark Theme](screenshots/settings.gif)|
 |:--:|:--:|
 
